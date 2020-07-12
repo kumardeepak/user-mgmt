@@ -12,7 +12,6 @@ from configs import AppConfig
 import routes
 import logging
 from pymongo import MongoClient
-import face_recognition
 
 server                                          = Flask(__name__)
 server.config['JWT_SECRET_KEY']                 = AppConfig.get_jwt_secret_key()

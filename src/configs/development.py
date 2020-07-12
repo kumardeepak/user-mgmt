@@ -8,7 +8,6 @@ ENABLE_CORS                         = True
 JWT_SECRET_KEY                      = 'tarento@ai.com$'
 JWT_ACCESS_TOKEN_EXPIRY_IN_MINS     = 5
 JWT_REFRESH_TOKEN_EXPIRY_IN_DAYS    = 30
-FACE_MATCHING_TOLERANCE             = 0.60000000
 
 DATABASE_SAVE                       = True
 DATABASE_URI                        = 'mongodb://localhost:27017'
